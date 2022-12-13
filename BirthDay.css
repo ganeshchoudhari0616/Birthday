@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-color: lightblue;
+    color: #fff;
+    background: linear-gradient(lightblue,rgb(237, 165, 177));
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* he imp ahe karan ki display inline karun h2 and h4 la */
+}
+#bdy{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border: 5px solid rgb(237, 165, 177);
+}
+
+/* Challenge:2
+    :Add a thin blured border around the h1, h2 and
+    h4 using text shadow technique you learned in the 
+     Space Exploration section .
+     Set the blur to 1px and the color to black */
+h1,h2,h3,h4{
+    text-shadow: 0px 0px 1px black;
+}   
+
+/* 4:
+   make the bdy elements look like the 
+   provided design slide */
+
+
+#age{
+    background-color:rgb(237, 165, 177) ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin: 5px 0 10px 0;
+}
+#date{
+    margin: 0;
+    background-color:rgb(237, 165, 177) ;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* 3:
+   First ,wrap the html element in a div with an id called 'header'
+   Then select the 'header'and use flexbox to achieve
+   the layout you havbeen provided in the design style */
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 5:
+   1.Create "gift section div that will wrap 
+      all the element for the first gift
+    2:Add the h2 h3 img elements and 
+    give allof them thier own classes.
+    3.Style the lements according to the design
+     PS:the img should be 400px wide  " */
+
+.gift-section{
+        margin-top: 50px;
+     }
+
+.gift-title{
+    margin-bottom: 10px;
+}     
+
+.gift-hint{
+    margin-top: 0;
+}
+.gift-img{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px ;
+
+    /* 6.
+    'fix ' the 'gift-img' div  so that it looks 
+    like the provided design again
+    
+    It needs ahe hight (should be a square ) a
+    background img and to be centered again*/
+
+    background-image: url("../gify.jpg");
+    background-size: cover;
+}     
+
+/* 7.
+   Swap the gift paper image out with 
+     the happy.gif when u hover over it  */
+
+#gift-img-happy:hover{
+    background-image: url("../dance.gif");
+    background-size: cover;
+}     
+
+/* 8.
+    Create the next gift (host.gift) Its HTML structure 
+    should be like the previous one , but without the
+    "gift -hint  element
+    
+    However , now that u have multiple gifts ont the page,
+    u cannot use the "gift-img" calss to set the GIF 
+    background-image (s) on :hover .
+    Each GIFt will need a unique id that controls which bg img that 
+    should be shown when hovering over the element.*/
+
+    #gift-img-hot:hover{
+        background-image: url("../smile.gif");
+        align-items: center;
+        background-size: cover;
+    }
+
+
+    /* 9.
+       Create the genius and "badass" GIFt section.
+        Text:If I had to describe you with one word
+         
+        The only person as badas as u*/
+
+        #gift-img-genius:hover{
+            background-image: url("../genius.gif");
+            align-items: center;
+            background-size: cover;
+        }
+
+        #gift-img-bindas:hover{
+            background-image: url("../alia.gif");
+            
+            background-size: cover;
+        }
+
+
+        /* 10.
+           Create the "cheers " gift section 
+           
+           Note:this Gfit should have a height 200px
+           Select the #gift-img-cheers id and override
+           the height that the element got from the .gift-img-class.
+
+           Text:This ones for u , my friend
+         */
+         #gift-img-cheers:hover{
+            background-image: url("../cheer.gif");
+            height: 200px;
+            background-size: cover;
+        }
+
+
+        /* 1.cheeer.gif;2.alia.gif;3:genius.gif;4:smile.gif;5:dance.gif;6:gify.jpg */
