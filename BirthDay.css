@@ -90,7 +90,7 @@ h1,h2,h3,h4{
     It needs ahe hight (should be a square ) a
     background img and to be centered again*/
 
-    background-image: url("../gify.jpg");
+    background-image: url("./gify.jpg");
     background-size: cover;
 }     
 
@@ -99,7 +99,7 @@ h1,h2,h3,h4{
      the happy.gif when u hover over it  */
 
 #gift-img-happy:hover{
-    background-image: url("../dance.gif");
+    background-image: url("./dance.gif");
     background-size: cover;
 }     
 
@@ -115,7 +115,7 @@ h1,h2,h3,h4{
     should be shown when hovering over the element.*/
 
     #gift-img-hot:hover{
-        background-image: url("../smile.gif");
+        background-image: url("./smile.gif");
         align-items: center;
         background-size: cover;
     }
@@ -128,13 +128,13 @@ h1,h2,h3,h4{
         The only person as badas as u*/
 
         #gift-img-genius:hover{
-            background-image: url("../genius.gif");
+            background-image: url("./genius.gif");
             align-items: center;
             background-size: cover;
         }
 
         #gift-img-bindas:hover{
-            background-image: url("../alia.gif");
+            background-image: url("./alia.gif");
             
             background-size: cover;
         }
@@ -150,7 +150,7 @@ h1,h2,h3,h4{
            Text:This ones for u , my friend
          */
          #gift-img-cheers:hover{
-            background-image: url("../cheer.gif");
+            background-image: url("./cheer.gif");
             height: 200px;
             background-size: cover;
         }
